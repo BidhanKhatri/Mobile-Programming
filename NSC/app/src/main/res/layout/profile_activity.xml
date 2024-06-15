@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/lightGray"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/nsc_logo"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Profile Page"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:layout_weight="1"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/brown"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="UserName"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Password"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@color/black"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:id="@+id/showUsername"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:id="@+id/showPassword"></TextView>
+    </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="0"
+       android:textSize="500px"
+       android:id="@+id/result">
+   </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add one"
+        android:id="@+id/btnAdd"
+        android:layout_weight="1"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtract one"
+        android:id="@+id/btnSub"
+        android:layout_weight="1"
+        >
+    </Button>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculator"
+        android:id="@+id/btnGoCalculator">
+
+    </Button>
+<!--    used to add the input field-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter some value"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editOne"></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send value"
+        android:textSize="20dp"
+        android:id="@+id/btnSend"></Button>
+
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+  android:hint="Enter url address"
+     android:id="@+id/editUrl"></EditText>
+ <Button
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Open Url"
+     android:textSize="20dp"
+     android:id="@+id/btnOpenUrl"></Button>
+ <Button
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Log in"
+  android:textSize="30sp"
+     android:textStyle="bold"
+     android:layout_marginTop="20dp"
+     android:id="@+id/loginBtnFromMain"/>
+
+</LinearLayout>

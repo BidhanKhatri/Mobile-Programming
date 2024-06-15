@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/lightGray"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/nsc_logo"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="About Us Page"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:layout_weight="1"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/about_bg">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1)  New Summit College has grown from humble beginnings."
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2) From a small college, we've evolved"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3) Rooted in excellence, innovation, and community."
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back To Main"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:id="@+id/btnBackFromAbout"></Button>
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
